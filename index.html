@@ -7,28 +7,141 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sit on Chair</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <header>
+
+    <div class="wrapper background-header">
+        <header class="center flex">
             <div class="logo">
-                <span>SIT <span class="color">ON</span> CHAIR</span>
+                <span>SIT <strong class="color">ON</strong> CHAIR</span>
             </div>
             <nav>
-                <ul>
-                    <li><a href="#">O firmie</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                <ul class="menu">
+                    <li><a href="#">O FIRMIE</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz Team</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GALERIA</a></li>
+                    <li><a href="#">KONTAKT</a></li>
                 </ul>
             </nav>
         </header>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <footer></footer>
     </div>
+    <div class="wrapper background-main">
+        <section class="main center">
+            <div class="nav color">&lt;</div>
+            <div class="img">
+                <img src="images/black_chair.png" alt="fotel">
+            </div>
+            <article class="main-article">
+                <h1>SIT <strong class="color">ON </strong>OUR <strong class="color">CHAIR</strong></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam esse, quos itaque ullam repellat tenetur perspiciatis quisquam laudantium, tempora natus animi delectus earum dolore expedita, ut cupiditate beatae dolorem!</p>
+                <button>ZOBACZ WIĘCEJ</button>
+            </article>
+            <div class="nav color">&gt;</div>
+        </section>
+    </div>
+    <section class="products center">
+        <div class="product">
+            <h3>Chair CLAIR</h3>
+        </div>
+        <div class="product">
+            <h3>Chair MARGARITA</h3>
+        </div>
+        <div class="product">
+            <h3>Finds all inputs</h3>
+            <p>Finds all inputs are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click eents have been linked.</p>
+            <p>Notice there is no chenge when clicking the checkboxes since no click events have been</p>
+        </div>
+    </section>
+    <section class="price_list center">
+        <div class="title">
+            <h2>CENNIK</h2>
+        </div>
+        <div class="price_option">
+            <h3>BASIC PLAN</h3>
+            <div class="price">
+                <span>85 <sup>99</sup></span>
+                <span>PLN/MSC</span>
+            </div>
+            <ul class="range">
+                <li>Zakup towaru + dowóz</li>
+                <li>Serwis</li>
+            </ul>
+            <button class="dolacz">DOŁĄCZ</button>
+        </div>
+        <div class="price_option">
+            <h3>STANDARD PLAN</h3>
+            <div class="price">
+                <span>95 <sup>99</sup></span>
+                <span>PLN/MSC</span>
+            </div>
+            <ul class="range">
+                <li>Zakup towaru + dowóz</li>
+                <li>Serwis</li>
+                <li>Gwarancja 5 lat</li>
+            </ul>
+            <button class="dolacz">DOŁĄCZ</button>
+        </div>
+        <div class="price_option">
+            <h3>STANDARD PLAN</h3>
+            <div class="price">
+                <span>95 <sup>99</sup></span>
+                <span>PLN/MSC</span>
+            </div>
+            <ul class="range">
+                <li>Zakup towaru + dowóz</li>
+                <li>Serwis</li>
+                <li>Gwarancja 6 lat</li>
+                <li>Porady projektanta</li>
+            </ul>
+            <button class="dolacz">DOŁĄCZ</button>
+        </div>
+    </section>
+    <section class="form center">
+        <div class="title">
+            <h2>KONTAKT</h2>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Imię" name="name" id="name">
+            <input type="text" placeholder="email" name="email" id="email">
+            <textarea name="mesage" id="mesage" cols="30" rows="10" placeholder="Wiadomość"></textarea>
+            <div class="img">
+                <img src="images/red_chair.png" alt="fotel">
+            </div>
+            <label for="">
+                    <input type="checkbox">
+                    <span>Zgadzam się na przetwarzanie danych osobowych</span>
+                </label>
+            <button type="submit">WYŚLIJ</button>
+        </form>
+    </section>
+    <footer class="center">
+        <div class="footer-text">
+            <span>Copyright 2014 | All Rights Reserved. - Sit On Chair</span>
+        </div>
+        <div class="social-media">
+            <div class="media"><img src="images/flickr.png" alt=""></div>
+            <div class="media">
+                <img src="images/vimeo.png" alt="">
+            </div>
+            <div class="media">
+                <img src="images/pinterest.png" alt="">
+            </div>
+            <div class="media">
+                <img src="images/twitter.png" alt="">
+            </div>
+        </div>
+        <div class="logo">
+            <span>SIT <strong>ON</strong> CHAIR</span>
+        </div>
+    </footer>
+
 </body>
 
 </html>
