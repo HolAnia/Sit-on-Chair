@@ -522,10 +522,38 @@ textarea {
 footer {
     display: flex;
     color: #b2b2b2;
+    height: 160px;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.footer-text {
+    width: 60%;
+    font-size: 18px;
 }
 
 .social-media {
     display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    margin-left: 90px;
+    margin-top: -10px;
 }
 
-.logo {}
+.social-media .media {
+    margin-right: 5px;
+}
+
+.logo {
+    width: 20%;
+    text-align: right;
+}
+
+footer .logo span {
+    color: #b2b2b2;
+    font-size: 20px;
+}
+
+.logo span strong {
+    font-weight: 900;
+}
