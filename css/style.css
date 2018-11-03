@@ -571,7 +571,7 @@ footer {
     margin-right: 5px;
 }
 
-.logo {
+footer .logo {
     width: 20%;
     text-align: right;
 }
