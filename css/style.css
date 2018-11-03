@@ -500,6 +500,32 @@ textarea {
     margin-left: -40px;
 }
 
+
+/* STYLES CHECKBOX */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked+.text-checkbox::before {
+    content: "";
+    border: 1px solid #20C8B1;
+    width: 48px;
+    height: 48px;
+    background: url(../images/form_ok.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    float: left;
+    margin-right: 10px;
+}
+
+.text-checkbox {
+    line-height: 20px;
+}
+
+
+/* STYLE - FORM BUTTON */
+
 .form_2 button {
     color: #fff;
     width: 340px;
@@ -512,8 +538,9 @@ textarea {
 
 .form_2 label {
     width: 340px;
-    font-size: 20px;
+    font-size: 18px;
     color: #c9c9c9;
+    cursor: pointer;
 }
 
 
