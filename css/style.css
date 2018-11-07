@@ -1,4 +1,4 @@
-/* ogolne style */
+/* style ogólne*/
 
 * {
     margin: 0;
@@ -28,7 +28,7 @@ body {
 }
 
 
-/* style dla HEDERA */
+/* style HEADER */
 
 .background-header {
     background-color: #000;
@@ -397,7 +397,7 @@ ul.range li:nth-child(even) {
     color: #989898;
 }
 
-.dolacz {
+.button-price {
     position: absolute;
     bottom: 20px;
     width: 120px;
@@ -409,7 +409,7 @@ ul.range li:nth-child(even) {
     line-height: 35px;
 }
 
-.price_option:nth-child(2) .dolacz {
+.price_option:nth-child(2) .button-price {
     background-color: #fff;
     color: #20C8B1;
 }
@@ -477,7 +477,7 @@ form {
     /* IE 10+ */
 }
 
-#mesage {
+#message {
     height: 190px;
     border: 1px solid #a4e1d1;
 }
@@ -515,6 +515,15 @@ input[type="checkbox"]:checked+.text-checkbox::before {
     background: url(../images/form_ok.jpg) no-repeat;
     background-size: 80%;
     background-position: center;
+    float: left;
+    margin-right: 10px;
+}
+
+input[type="checkbox"]+.text-checkbox::before {
+    content: "";
+    border: 1px solid #20C8B1;
+    width: 48px;
+    height: 48px;
     float: left;
     margin-right: 10px;
 }
