@@ -8,6 +8,7 @@
     <title>Sit on Chair</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -36,7 +37,12 @@
         <section class="main center">
             <div class="nav color">&lt;</div>
             <div class="img">
-                <img src="images/black_chair.png" alt="">
+                <ul>
+                    <li><img src="images/black_chair.png" alt=""></li>
+                    <li><img src="images/orange_chair.png" alt=""></li>
+                    <li><img src="images/red_chair.png" alt=""></li>
+                </ul>
+                <!-- <img src="images/black_chair.png" alt=""> -->
             </div>
             <article class="main-article">
                 <h1>SIT <strong class="color">ON </strong>OUR <strong class="color">CHAIR</strong></h1>
@@ -107,6 +113,89 @@
             </div>
         </div>
     </section>
+
+    <section class="application ">
+        <div class="center flex">
+            <section class="choice_part ">
+                <header>
+                    <h3>SKOMPONUJ SWOJE KRZESŁO</h3>
+                    <span class="green_bell"></span>
+                </header>
+
+                <div class="form">
+                    <div class="drop_down_list">
+                        <span class="list_label">Wybierz rodzaj</span>
+                        <span class="list_arrow"></span>
+                        <ul class="list_panel">
+                            <li data-price="200">Clair</li>
+                            <li data-price="180">Margarita</li>
+                            <li data-price="220">Selena</li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_list">
+                        <span class="list_label">Wybierz kolor</span>
+                        <span class="list_arrow"></span>
+                        <ul class="list_panel">
+                            <li data-price="0">Czerwony</li>
+                            <li data-price="20">Czarny</li>
+                            <li data-price="20">Pomarańczowy</li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_list">
+                        <span class="list_label">Wybierz materiał</span>
+                        <span class="list_arrow"></span>
+                        <ul class="list_panel">
+                            <li data-price="0">Tkanina</li>
+                            <li data-price="60">Skóra</li>
+                        </ul>
+                    </div>
+                    <div class="checkbox check-box">
+                        <input type="checkbox" id="transport" data-price="200">
+                        <label for="transport">Transport</label>
+                    </div>
+                    <!--<div class="checkbox"></div>-->
+                    <!--<span class="list_label inline_text">Transport</span>-->
+                </div>
+            </section>
+
+            <section class="image_part inline">
+                <img src="images/red_chair.png">
+            </section>
+
+            <section class="summary_part inline">
+                <header class="align_right">
+                    <h3>PODSUMOWANIE</h3>
+                    <span class="green_bell"></span>
+                </header>
+
+                <div class="summary_panel">
+                    <div class="flex">
+                        <div class="panel_left">
+                            <h4 class="title">Twój fotel</h4>
+                            <span class="color"></span>
+                            <span class="pattern"></span>
+                            <span class="transport"></span>
+                        </div>
+                        <div class="panel_right">
+                            <h4 class="title value"></h4>
+                            <span class="color value"></span>
+                            <span class="pattern value"></span>
+                            <span class="transport value"></span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="sum_label">SUMA</div>
+                        <div class="sum"><strong></strong></div>
+                    </div>
+                </div>
+                <a href="" class="green_button">Zamawiam</a>
+            </section>
+        </div>
+    </section>
+
+
+
+
     <section class="form center">
         <div class="title">
             <h2>KONTAKT</h2>
